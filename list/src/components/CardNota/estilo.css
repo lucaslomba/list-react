@@ -1,0 +1,52 @@
+.card-nota {
+  background-color: rgb(255, 243, 79);
+  border-radius: 5px;
+  flex-wrap: wrap;
+  box-shadow: -4px -4px 4px rgba(0, 0, 0, 0.3);
+  padding: 16px;
+  position: relative;
+  transition: 0.6s;
+  min-height: 100px;
+}
+
+.card-nota:hover{
+  box-shadow: -2px -2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.efeito-preso{
+  position: absolute;
+  top: -12px;
+  right: calc(50% - 12px);
+  background-color: rgb(0, 0, 0);
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.efeito-preso-2{
+  background-color: rgb(39, 39, 39);
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+}
+
+.card-nota_cabecalho {
+  font-size: 1.1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-nota_texto {
+  margin-top: 8px;
+  font-size: 1em;
+}
+
+.card-nota_titulo {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-right: 12px;
+}
